@@ -1,0 +1,7 @@
+config.vm.synced_folder "./code", "/var/www", create: true, group: "staff", owner: "didierflury"
+
+Vagrant.configure("2") do |config|
+# other config here
+
+config.vm.synced_folder "code/"
+end
