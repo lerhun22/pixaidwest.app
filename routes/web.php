@@ -24,5 +24,9 @@ Route::get('2', function () {
 });
 
 Route::get('3', function () {
-	return 'Deux';
+	return 'Trois';
+});
+
+Route::get('4', function () {
+	return 'Quatre';
 });
