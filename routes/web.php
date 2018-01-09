@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('1', function () {
 	return 'Bonjour Didier';
 });
+
+Route::get('2', function () {
+	return 'Deux';
+});
