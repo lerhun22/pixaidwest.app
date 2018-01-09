@@ -22,3 +22,7 @@ Route::get('1', function () {
 Route::get('2', function () {
 	return 'Deux';
 });
+
+Route::get('3', function () {
+	return 'Deux';
+});
