@@ -30,3 +30,6 @@ Route::get('3', function () {
 Route::get('4', function () {
 	return 'Quatre';
 });
+Route::get('5', function () {
+	return 'Cing';
+});
