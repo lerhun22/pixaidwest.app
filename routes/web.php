@@ -14,22 +14,3 @@
 Route::get('/', function () {
 	return view('welcome');
 });
-
-Route::get('1', function () {
-	return 'Bonjour Didier';
-});
-
-Route::get('2', function () {
-	return 'Deux';
-});
-
-Route::get('3', function () {
-	return 'Trois';
-});
-
-Route::get('4', function () {
-	return 'Quatre';
-});
-Route::get('5', function () {
-	return 'Cing';
-});
