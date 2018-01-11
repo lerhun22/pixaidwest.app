@@ -4,6 +4,17 @@
 <div class='container'>
 	<h1>Contact us</h1>
 
+	@if ($errors->any())
+	<div class="alert alert-danger">
+		<ul>
+			@foreach ($errors->all() as $error)
+			<li>{{ $error }}</li>
+			@endforeach
+		</ul>
+	</div>
+	@endif
+
+
 	<form action="{{ route('contact') }}" method ="post">
 		{{ csrf_field() }}
 
@@ -29,6 +40,9 @@
 		<input type="submit" class="btn btn-primary" value="Send Email" />
 
 	</form>
+
+
+
 
 </div>
 @endsection
