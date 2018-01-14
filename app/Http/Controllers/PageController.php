@@ -44,5 +44,7 @@ class PageController extends Controller
 		}else{
 			Mail::to('didier.flury@wanadoo.fr')->send( new ContactForm($request) );
 		}
+
+		return view('home');
 	}
 }

@@ -38,6 +38,6 @@ class ContactForm extends Mailable
     {
         return $this->from($this->email, $this->name)
         -> subject($this->subject)
-        ->markdown('email.contact');
+        -> markdown('email.contact');
     }
 }

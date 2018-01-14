@@ -1,6 +1,8 @@
 @component('mail::message')
 
-{{ $subject }} :  Nouveau contact message
+Nouveau message : {{ $subject }} 
+
+de : {{ $name }}   
 
 
 @component('mail::panel')
@@ -12,5 +14,5 @@ Répondre à cet email
 @endcomponent
 
 Cordialement,<br>
-{{ config('app.name') }}
+Didier - {{ config('app.name') }}
 @endcomponent
